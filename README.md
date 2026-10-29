@@ -30,3 +30,4 @@ docker run -d -p 80:80 --name frontend-app thanhluong83/frontend:latest
 
 
 URL frontend: https://frontend-236109-tranthanhluong.onrender.com/
+URL backend: https://backend-236109-tranthanhluong.onrender.com/
