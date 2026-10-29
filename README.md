@@ -1,10 +1,10 @@
-# �? �n �i?n to�n d�m m�y - H? th?ng Qu?n l� M�n an
+﻿# Đồ án Điện toán đám mây - Hệ thống Quản lý Món ăn
 
-**Sinh vi�n th?c hi?n:** Tr?n Thanh Lu?ng
+**Sinh viên thực hiện:** Trần Thanh Lượng
 **MSSV:** 236109
 
-## 1. Gi?i thi?u d? t�i & C�ng ngh?
-H? th?ng qu?n l� m�n an cho ph�p th?c hi?n c�c ch?c nang CRUD v� t�m ki?m m�n an tr�n n?n t?ng d�m m�y.
+## 1. Giới thiệu đề tài & Công nghệ
+Hệ thống quản lý món ăn cho phép thực hiện các chức năng CRUD và tìm kiếm món ăn trên nền tảng đám mây.
 
 * **Frontend:** React
 * **Backend:** Node.js, Express.js
@@ -12,9 +12,13 @@ H? th?ng qu?n l� m�n an cho ph�p th?c hi?n c�c ch?c nang CRUD v� t�m ki?m m�n an
 * **Containerization:** Docker, Docker Hub
 * **Cloud Hosting:** Render
 
-## 2. C?u tr�c d? �n
+## 2. Cấu trúc dự án
 236109_TranThanhLuong/
-+-- backend/
-+-- frontend/
-+-- .gitignore
-+-- README.md
+├── backend/
+├── frontend/
+├── .gitignore
+└── README.md
+
+## 4. Docker Images
+* Backend Image: thanhluong83/backend:latest
+* Frontend Image: thanhluong83/frontend:latest
