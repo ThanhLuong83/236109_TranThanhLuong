@@ -22,3 +22,8 @@ Hệ thống quản lý món ăn cho phép thực hiện các chức năng CRUD 
 ## 4. Docker Images
 * Backend Image: thanhluong83/backend:latest
 * Frontend Image: thanhluong83/frontend:latest
+
+### Hướng dẫn chạy bằng Docker:
+```bash
+docker run -d -p 5000:5000 --name backend-app -e MONGODB_URI="chuoi_mongodb_atlas" thanhluong83/backend:latest
+docker run -d -p 80:80 --name frontend-app thanhluong83/frontend:latest
